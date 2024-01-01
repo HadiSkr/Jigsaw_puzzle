@@ -2,7 +2,7 @@
 
 This project is a jigsaw puzzle game that can be played in two levels: Level One and Level Two. The game includes a graphical user interface (GUI) and different modes of play.
 
-## Level One
+## eroded boundaries puzzle
 
 In Level One, you have the option to play with or without hint.
 
@@ -28,20 +28,19 @@ To play the game without hints, use the following command:
 python GUI_without_hint.py
 ```
 
-## Level Two
-
+## jigsaw Puzzle
 You can also choose to play with or without hints. Use the following commands to start the game:
 
 ### With Hints
 
 ```bash
-python with_hint.py
+python jigsaw_solver_with_hint.py
 ```
 
 ### Without Hints
 
 ```bash
-python without_hint.py
+python jigsaw_solver.py
 ```
 
 After each level, the images will be saved in the ‘images’ folder.
